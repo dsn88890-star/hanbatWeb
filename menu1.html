@@ -32,7 +32,7 @@ count = 0;
 username = prompt("이름을입력해주십시오.","");
 if (username == null) {
 alert("이름을입력하시면보다나은서비스를제공받을수있습니다.");
-username = "아무개“;
+username = "아무개";
 } else {
 expire.setTime(expire.getTime() + (365 * 24 * 3600 * 1000)); // 1년후
 SetCookie("username",username,expire);
